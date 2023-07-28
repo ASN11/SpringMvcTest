@@ -9,12 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cced758f-78b4-4091-afed-57f9bec6aa06" name="Changes" comment="параметры get запроса">
-      <change afterPath="$PROJECT_DIR$/src/main/java/school21/controllers/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/calculator/calculator.html" afterDir="false" />
+    <list default="true" id="cced758f-78b4-4091-afed-57f9bec6aa06" name="Changes" comment="+ calculator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/school21/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/school21/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/school21/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school21/controllers/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school21/controllers/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello/hello_world.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello/hello_world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school21/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school21/config/SpringConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -198,7 +203,7 @@
       <workItem from="1690450771299" duration="9462000" />
       <workItem from="1690464802399" duration="463000" />
       <workItem from="1690465283194" duration="1897000" />
-      <workItem from="1690536845321" duration="11157000" />
+      <workItem from="1690536845321" duration="16216000" />
     </task>
     <task id="LOCAL-00001" summary="Test MVC XML">
       <created>1690458823378</created>
@@ -221,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690552276056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ calculator">
+      <created>1690560373089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690560373089</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +260,7 @@
     <MESSAGE value="Test MVC XML" />
     <MESSAGE value="поправил на java конфиг" />
     <MESSAGE value="параметры get запроса" />
-    <option name="LAST_COMMIT_MESSAGE" value="параметры get запроса" />
+    <MESSAGE value="+ calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ calculator" />
   </component>
 </project>
