@@ -9,6 +9,6 @@
 <%
     System.out.println("JSP is working");
 %>
-<h2>Hello World!Bla</h2>
+<h2>Start page</h2>
 </body>
 </html>
