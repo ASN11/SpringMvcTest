@@ -9,15 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cced758f-78b4-4091-afed-57f9bec6aa06" name="Changes" comment="+ calculator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/school21/controllers/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/school21/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/school21/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+    <list default="true" id="cced758f-78b4-4091-afed-57f9bec6aa06" name="Changes" comment="CRUD READ">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school21/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school21/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school21/config/DispatcherServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school21/config/DispatcherServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school21/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school21/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school21/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school21/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +57,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/stephanr/SpringMvcTest/src/main/webapp/WEB-INF/views/calculator",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "56d2b1994caeb68c20cec92d214b6440"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/stephanr/SpringMvcTest/src/main/webapp/WEB-INF/views/calculator&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;56d2b1994caeb68c20cec92d214b6440&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/calculator" />
@@ -203,7 +202,8 @@
       <workItem from="1690450771299" duration="9462000" />
       <workItem from="1690464802399" duration="463000" />
       <workItem from="1690465283194" duration="1897000" />
-      <workItem from="1690536845321" duration="16216000" />
+      <workItem from="1690536845321" duration="16510000" />
+      <workItem from="1690882742432" duration="5963000" />
     </task>
     <task id="LOCAL-00001" summary="Test MVC XML">
       <created>1690458823378</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690560373089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CRUD READ">
+      <created>1690568457594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690568457594</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +268,7 @@
     <MESSAGE value="поправил на java конфиг" />
     <MESSAGE value="параметры get запроса" />
     <MESSAGE value="+ calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ calculator" />
+    <MESSAGE value="CRUD READ" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD READ" />
   </component>
 </project>
