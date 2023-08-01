@@ -40,8 +40,6 @@ public class PersonDAO {
     }
 
     public void delete(int id) {
-        Person personToBeDeleted = show(id);
-
-        people.remove(personToBeDeleted);
+        people.removeIf(p -> p.getId() == id);
     }
 }

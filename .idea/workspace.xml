@@ -9,14 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cced758f-78b4-4091-afed-57f9bec6aa06" name="Changes" comment="CRUD READ">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+    <list default="true" id="cced758f-78b4-4091-afed-57f9bec6aa06" name="Changes" comment="CRUD Update Delete 1/2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school21/config/DispatcherServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school21/config/DispatcherServletConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school21/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school21/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/school21/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school21/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +201,8 @@
       <workItem from="1690464802399" duration="463000" />
       <workItem from="1690465283194" duration="1897000" />
       <workItem from="1690536845321" duration="16510000" />
-      <workItem from="1690882742432" duration="5963000" />
+      <workItem from="1690882742432" duration="6198000" />
+      <workItem from="1690909139617" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="Test MVC XML">
       <created>1690458823378</created>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690568457594</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CRUD Update Delete 1/2">
+      <created>1690899012330</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690899012330</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +275,7 @@
     <MESSAGE value="параметры get запроса" />
     <MESSAGE value="+ calculator" />
     <MESSAGE value="CRUD READ" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD READ" />
+    <MESSAGE value="CRUD Update Delete 1/2" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD Update Delete 1/2" />
   </component>
 </project>
